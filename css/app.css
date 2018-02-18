@@ -2,6 +2,12 @@
     --vintage-cream: #f4f4ef;
     --iron-gate: #110a03;
     --trans-vintage-cream: rgba(244, 244, 239, .4);
+    --purple-curtain: #3c2d51;
+    --fancy-font: 'Berkshire Swash', cursive;
+}
+
+html {
+    background: var(--purple-curtain);
 }
 
 body {
@@ -11,8 +17,10 @@ body {
     height: 100vh;
 }
 
+/* Home Content */
+
 h1 {
-    font-family: 'Berkshire Swash', cursive;
+    font-family: var(--fancy-font);
     font-weight: normal;
     padding-top: 0.5em;
     color: var(--vintage-cream);
@@ -40,6 +48,8 @@ h1 {
     color: var(--vintage-cream);
 }
 
+/* Header and Footer */
+
 .header, .footer {
     background: var(--iron-gate);
     height: 10vh;
@@ -52,4 +62,31 @@ h1 {
 
 .footer {
     border-top: 1px solid var(--vintage-cream);
+}
+
+nav {
+    height: 100%;
+}
+
+ul.nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.nav-item {
+    color: var(--vintage-cream);
+    font-family: var(--fancy-font);
+}
+
+i {
+    color: var(--vintage-cream);
+    padding: 0 2em;
+    font-style: normal;
 }
