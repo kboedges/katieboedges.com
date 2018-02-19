@@ -1,3 +1,5 @@
+
+/* CSS Variables */
 :root {
     --vintage-cream: #f4f4ef;
     --iron-gate: #110a03;
@@ -8,6 +10,7 @@
 
 html {
     background: var(--purple-curtain);
+    /* overflow: hidden; */
 }
 
 body {
@@ -27,14 +30,20 @@ h1 {
 }
 
 .portrait-container {
+    -webkit-box-shadow: inset 0px 0px 72px 1px #000;
+    -moz-box-shadow: inset 0px 0px 0px 10px #f00;
+    box-shadow: inset 0px 0px 0px 1x #f00;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    z-index: 1;
+    overflow-y: scroll;
     background-color: #3b2d52;
     background-image: url("data:image/svg+xml,%3Csvg width='84' height='16' viewBox='0 0 84 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M78 7V4h-2v3h-3v2h3v3h2V9h3V7h-3zM30 7V4h-2v3h-3v2h3v3h2V9h3V7h-3zM10 0h2v16h-2V0zm6 0h4v16h-4V0zM2 0h4v16H2V0zm50 0h2v16h-2V0zM38 0h2v16h-2V0zm28 0h2v16h-2V0zm-8 0h6v16h-6V0zM42 0h6v16h-6V0z' fill='%23110a03' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
-}
+
+    }
 
 .portrait {
     width: 240px;
@@ -53,7 +62,8 @@ h1 {
 .header, .footer {
     background: var(--iron-gate);
     height: 10vh;
-    min-height: 2em;
+    min-height: 3em;
+    z-index: 2;
 }
 
 .header {
@@ -63,6 +73,8 @@ h1 {
 .footer {
     border-top: 1px solid var(--vintage-cream);
 }
+
+/* Navigation & Social */
 
 nav {
     height: 100%;
@@ -80,9 +92,10 @@ ul.nav-list, ul.social-list {
     padding: 0;
 }
 
-.nav-item {
+.nav-item a {
     color: var(--vintage-cream);
     font-family: var(--fancy-font);
+    font-size: 1.2em;
 }
 
 i.nav-star {
@@ -92,11 +105,28 @@ i.nav-star {
 }
 
 .social-item {
-    padding: 2em; 
+    padding: 0 2em; 
+}
+
+.social-item a {
     color: var(--vintage-cream);
     font-size: 1.5em;
 }
 
-i.fab {
-    
+/* Portrait Hover Animation */
+
+/* Side Flourishes */
+
+h1:before {
+    content: 'i ';
+    font-family: 'nymphetteregular';
+    display: inline-block;
+    padding-right: 0.2em;
+}
+
+h1:after {
+    content: ' j';
+    font-family: 'nymphetteregular';
+    display: inline-block;
+    padding-left: 0.2em;
 }
