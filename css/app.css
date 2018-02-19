@@ -31,8 +31,8 @@ h1 {
 
 .portrait-container {
     -webkit-box-shadow: inset 0px 0px 72px 1px #000;
-    -moz-box-shadow: inset 0px 0px 0px 10px #f00;
-    box-shadow: inset 0px 0px 0px 1x #f00;
+    -moz-box-shadow: inset 0px 0px 72px 1px #000;
+    box-shadow: inset 0px 0px 72px 1px #000;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
