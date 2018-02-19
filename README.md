@@ -6,4 +6,13 @@
 * Font Awesome - https://fontawesome.com/
 * Bootstrap - https://getbootstrap.com/
 * Portrait - http://lumieretintype.com/
-* Wallpaper Pattern - http://www.heropatterns.com/
+* Wallpaper Patterns - http://www.heropatterns.com/
+
+## Project Goals
+
+* Homepage - Portrait animation
+* Projects - With description, icons, Github link, and demo link
+* Resume - Panels or accordions 
+* About me
+* SEO
+* Page transitions
