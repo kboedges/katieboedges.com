@@ -7,6 +7,7 @@
 * Bootstrap - https://getbootstrap.com/
 * Portrait - http://lumieretintype.com/
 * Wallpaper Patterns - http://www.heropatterns.com/
+* BEM - http://getbem.com/naming/
 
 ## Project Goals
 
