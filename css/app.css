@@ -30,9 +30,9 @@ h1 {
 }
 
 .content {
-    -webkit-box-shadow: inset 0px 0px 72px 1px #000;
+    /* -webkit-box-shadow: inset 0px 0px 72px 1px #000;
     -moz-box-shadow: inset 0px 0px 72px 1px #000;
-    box-shadow: inset 0px 0px 72px 1px #000;
+    box-shadow: inset 0px 0px 72px 1px #000; */
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -46,8 +46,10 @@ h1 {
     }
 
 .content__portrait {
-    width: 240px;
-    height:auto;
+    width: auto;
+    min-height:300px;
+    max-height: 500px;
+    flex-basis: 500px | auto;
     padding: 6px;
     border-radius: 50%;
     border: 9px solid var(--trans-vintage-cream);
@@ -66,13 +68,13 @@ h1 {
     z-index: 2;
 }
 
-.header {
+/* .header {
     border-bottom: 1px solid var(--vintage-cream);
 }
 
 .footer {
     border-top: 1px solid var(--vintage-cream);
-}
+} */
 
 /* Navigation & Social */
 
