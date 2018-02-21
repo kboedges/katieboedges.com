@@ -63,7 +63,7 @@ h1 {
 
 .header, .footer {
     background: var(--iron-gate);
-    height: 10vh;
+    height: 8vh;
     min-height: 3em;
     z-index: 2;
 }
