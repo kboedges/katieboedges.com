@@ -152,6 +152,10 @@ h1:after {
     color: var(--iron-gate);
 }
 
+.resume__list {
+    display: flex;
+}
+
 .panel__title {
     font-family: var(--fancy-font);
 }
