@@ -17,3 +17,9 @@
 * About me
 * SEO
 * Page transitions
+
+## Ideas
+
+* Crown molding
+* Adjust flex-basis for header and portrait
+* https://tympanus.net/codrops/2013/05/07/a-collection-of-page-transitions/
