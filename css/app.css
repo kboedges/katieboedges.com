@@ -62,21 +62,13 @@ h1 {
 
 /* Header and Footer */
 
-.header, .footer {
+.header {
     background: var(--trans-black);
     height: 8vh;
     min-height: 3em;
     z-index: 2;
     
 }
-
-/* .header {
-    border-bottom: 1px solid var(--vintage-cream);
-}
-
-.footer {
-    border-top: 1px solid var(--vintage-cream);
-} */
 
 /* Navigation & Social */
 
