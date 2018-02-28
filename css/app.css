@@ -116,6 +116,26 @@ nav {
 
 /* Portrait Hover Animation */
 
+img.landing__portrait:hover {
+    animation: revolve 2s linear infinite;
+    animation: moveIt 2.5s ease-in-out infinite;
+}
+
+@keyframes revolve {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes moveIt {
+    0%, 100% {
+      transform: rotate(45deg);
+    }
+    50% {
+      transform: rotate(-45deg);
+    }
+  }
+
 /* Side Flourishes */
 
 h1:before {
@@ -131,3 +151,4 @@ h1:after {
     display: inline-block;
     padding-left: 0.2em;
 }
+
