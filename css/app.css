@@ -122,25 +122,20 @@ nav {
 } */
 
 img.landing__portrait:hover {
-    transform: rotate(5deg);
     transform-origin: 50% 0%;
-    transition: 0.2s;
+    animation: swing 2.5s ease-in-out infinite;
 }
 
-/* @keyframes revolve {
-    100% {
-      transform: rotate(360deg);
+@keyframes swing {
+    0%, 100% {
+      transform: rotate(5deg);
+    }
+    50% {
+      transform: rotate(-5deg);
     }
   }
 
-  @keyframes moveIt {
-    0%, 100% {
-      transform: rotate(45deg);
-    }
-    50% {
-      transform: rotate(-45deg);
-    }
-  } */
+  
 
 /* Side Flourishes */
 
