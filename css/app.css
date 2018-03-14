@@ -116,11 +116,6 @@ nav {
 
 /* Portrait Hover Animation */
 
-/* img.landing__portrait:hover {
-    animation: revolve 2s linear infinite;
-    animation: moveIt 2.5s ease-in-out infinite;
-} */
-
 .swinging {
     transform-origin: 50% 0%;
     animation: swing 2.5s ease-in-out;
