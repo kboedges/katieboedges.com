@@ -46,7 +46,7 @@ h1 {
     width: auto;
     min-height: 300px;
     max-height: 500px;
-    flex-basis: 500px | auto;
+    flex-basis: 500px auto;
     padding: 6px;
     border-radius: 50%;
     border: 9px solid var(--trans-vintage-cream);
