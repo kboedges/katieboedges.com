@@ -14,6 +14,13 @@ class Work extends Component {
             link={"https://github.com/kboedges/cybersec-timer"}
             tech={"JavaScript, React, Redux"}
           />
+          <Card 
+            title={"Bookshelf"}
+            text={"2018 - Add books to your bookshelf to track your reading progress."}
+            link={"https://github.com/kboedges/bookshelf"}
+            tech={"JavaScript, React"}
+          />
+          
       </div>
       </div>
     );

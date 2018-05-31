@@ -29,7 +29,7 @@ class Education extends Component {
           <Card 
             title={"Resolved Mid-IR Observations and Modeling of AGN and Their Hosts (ARRA)"}
             subtitle={"Florida Institute of Technology"}
-            text={"Graduate assistant"}
+            text={"2012 - Graduate assistant"}
             img={fitLogo}
             link={"http://web2.fit.edu/research/portal/project/33/collaborative-proposal-resolved-mid-ir-observations-and-modeling-of-agn-and-their-hosts-arra-"}
           />
