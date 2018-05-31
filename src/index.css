@@ -110,3 +110,11 @@ span {
   font-weight: bold;
   color: var(--mid-blue);
 }
+
+/* SVG */
+
+svg.hills {
+  bottom: 0 !important;
+  position: absolute;
+  height: auto;
+}
