@@ -11,7 +11,10 @@ html {
 :root {
   --white-transparent: rgba(255, 255, 255, 0.219);
   --white-less: rgba(255, 255, 255, 0.486);
+  --bluish-white: rgb(219, 217, 224);
   --dark-purple: rgb(36,15,84);
+  --cool-blue: rgba(68,11,200,1);
+  --mid-blue: rgb(156, 140, 193);
   --med-width: 47%;
   --small-width: 100%;
 }
@@ -29,6 +32,7 @@ body {
 
 p {
   font-size: 1.1rem;
+  color: var(--bluish-white);
 }
 
 a, a:visited {
@@ -100,4 +104,9 @@ span {
 .card-link:hover img {
   -webkit-filter: saturate(8);
   filter: saturate(8);
+}
+
+.card-tech {
+  font-weight: bold;
+  color: var(--mid-blue);
 }
