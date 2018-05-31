@@ -8,11 +8,16 @@ html {
   width: 100vw;
 }
 
+:root {
+  --white-transparent: rgba(255, 255, 255, 0.219);
+  --white-less: rgba(255, 255, 255, 0.486);
+  --dark-purple: rgb(36,15,84);
+}
+
 body {
   color: #fff;
   font-family: 'Tajawal', sans-serif;
   font-weight: 200;
-  line-height: 2;
   display: flex;
   height: 100vh;
   overflow: hidden;
@@ -41,8 +46,12 @@ span {
   letter-spacing: 1px;
 }
 
-.nav, .card {
-  background: rgba(255, 255, 255, 0.219);
+.about-me, .nav {
+  line-height: 2;
+}
+
+.nav {
+  background: var(--white-transparent);
 }
 
 .nav-name, .nav-item {
@@ -53,5 +62,26 @@ span {
 }
 
 .current-page, a:hover {
-  color: rgba(255, 255, 255, 0.486);
+  color: var(--white-less);
+}
+
+/* Education */
+
+.card {
+  background: var(--dark-purple);
+  border-radius: 2px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.1rem; 
+}
+
+.card-subtitle {
+  color: var(--white-less);
+}
+
+.card-img {
+  width: 150px;
+  height: 150px
 }

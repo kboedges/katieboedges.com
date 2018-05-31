@@ -1,21 +1,23 @@
 import React, { Component } from 'react';
+import apsuLogo from'./images/apsuLogo.png';
 
 class Education extends Component {
   render() {
     return (
-      <div className="education p-5 w-100">
-        <div className="card">
-            <div className="card-body">
-                <h4 className="card-title">Card title</h4>
-                <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p className="card-text">
-                Some quick example text to build on the card title
-                and make up the bulk of the card's content.
+      <div className="education p-5 w-100 d-flex flex-column">
+        <h1 className="opening mb-4">Education.</h1>
+        <p>Degrees, courses, and published articles</p>
+        <div className="card d-flex flex-row">
+            <img class="card-img" src={apsuLogo} alt="apsu logo"/>
+            <div className="card-body p-4">
+                <h5 className="card-title">Bachelor of Science in Physics</h5>
+                <p className="card-subtitle m-0">Austin Peay State University</p>
+                <p className="card-text m-0">
+                Minors in mathematics and astronomy
                 </p>
-                <a href="#!" className="card-link">Card link</a>
-                <a href="#!" className="card-link">Another link</a>
             </div>
         </div>
+        
       </div>
     );
   }
