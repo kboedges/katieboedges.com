@@ -10,7 +10,7 @@ html {
 
 :root {
   --white-transparent: rgba(255, 255, 255, 0.219);
-  --white-less: rgba(255, 255, 255, 0.486);
+  --white-less: rgb(193, 173, 239);
   --bluish-white: rgb(219, 217, 224);
   --dark-purple: rgb(36,15,84);
   --cool-blue: rgba(68,11,200,1);
@@ -68,7 +68,7 @@ span {
 }
 
 .current-page, a:hover {
-  color: var(--white-less);
+  color: var(--white-less) !important;
 }
 
 /* Education */
@@ -114,7 +114,7 @@ span {
 /* SVG */
 
 svg.hills {
-  bottom: 0 !important;
-  position: absolute;
-  height: auto;
+    bottom: 0 !important;
+    position: absolute;
+    height: auto;
 }
