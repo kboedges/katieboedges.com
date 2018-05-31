@@ -8,7 +8,7 @@ import Nav from './Nav'
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <Nav/>
         <Route exact path="/" render={() => (
           <About/>
