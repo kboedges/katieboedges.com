@@ -7,17 +7,15 @@ html {
   background: linear-gradient(180deg, rgba(36,15,84,1) 0%, rgba(68,11,200,1) 100%);
 }
 
-.about {
-  
-}
-
 body {
   color: #fff;
   font-family: 'Tajawal', sans-serif;
   font-weight: 300;
+  padding: 2rem;
 }
 
 .opening {
   font-family: 'Patua One', cursive;
   font-weight: normal;
+  letter-spacing: 1px;
 }
