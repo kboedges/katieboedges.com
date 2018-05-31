@@ -82,6 +82,9 @@ span {
 }
 
 .card-img {
-  width: 150px;
-  height: 150px
+  width: auto;
+  height: 160px;
+  border-radius: 2px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
 }
