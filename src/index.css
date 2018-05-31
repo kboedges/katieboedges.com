@@ -13,11 +13,16 @@ body {
   height: 100vh;
   overflow: hidden;
   background: rgb(36,15,84);
-  background: linear-gradient(180deg, rgba(36,15,84,1) 0%, rgba(68,11,200,1) 100%);
+  background: linear-gradient(180deg, rgba(36,15,84,1) 0%, rgba(36,15,84,1) 5%, rgba(68,11,200,1) 100%);
 }
 
 p {
   font-size: 1.1rem;
+}
+
+a, a:visited {
+  color: #fff;
+  text-decoration: none;
 }
 
 .opening {
@@ -30,8 +35,13 @@ p {
   background: rgba(255, 255, 255, 0.219);
 }
 
-.nav-name {
+.nav-name, .nav-item {
   font-family: 'Patua One', cursive;
   font-weight: normal;
   letter-spacing: 1px;
+  color: #fff;
+}
+
+.current-page, a:hover {
+  color: rgba(255, 255, 255, 0.486);
 }
