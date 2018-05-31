@@ -12,6 +12,8 @@ html {
   --white-transparent: rgba(255, 255, 255, 0.219);
   --white-less: rgba(255, 255, 255, 0.486);
   --dark-purple: rgb(36,15,84);
+  --med-width: 47%;
+  --small-width: 100%;
 }
 
 body {
@@ -70,6 +72,12 @@ span {
 .card {
   background: var(--dark-purple);
   border-radius: 2px;
+  width: var(--med-width) !important;
+  border: 0;
+}
+
+.card:nth-child(odd) {
+  margin-right: 3% !important;
 }
 
 .card-title {
@@ -87,4 +95,9 @@ span {
   border-radius: 2px;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
+}
+
+.card-link:hover img {
+  -webkit-filter: saturate(8);
+  filter: saturate(8);
 }
