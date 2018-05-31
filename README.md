@@ -1,3 +1,10 @@
+## Installed Libraries/Packages
+
+* npm install --save bootstrap@4.0.0-alpha.6 
+* create-react-app
+* npm install ajv
+* npm install webpack@^3.1.0
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
