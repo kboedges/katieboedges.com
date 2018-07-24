@@ -60,11 +60,11 @@ p {
   color: var(--bluish-white);
 }
 
-a,
+/* a,
 a:visited {
   color: #fff;
   text-decoration: none;
-}
+} */
 
 span {
   font-weight: bold;
@@ -125,7 +125,7 @@ a:hover {
   flex: 1;
 }
 
-.code-link {
+.live-link {
   margin-right: 1rem;
 }
 

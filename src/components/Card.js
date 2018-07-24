@@ -16,9 +16,7 @@ class Card extends Component {
 
     return (
       <div className="card d-flex flex-row mb-3">
-        <a href={link} className="card-link">
-          {img && <img class="card-img" src={img} alt="logo" />}
-        </a>
+        {img && <img class="card-img" src={img} alt="logo" />}
         <div className="card-body p-4">
           <h5 className="card-title">{title}</h5>
           <p className="card-subtitle m-0">{subtitle}</p>

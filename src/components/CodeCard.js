@@ -19,11 +19,13 @@ class CodeCard extends Component {
         <div className="card-body p-4">
           <div className="card-row">
             <h5 className="card-title">{title}</h5>
-            <a href="{codeLink}" className="code-link">
+            {liveLink && (
+              <a href={liveLink} className="live-link" target="_blank">
+                Live
+              </a>
+            )}
+            <a href={codeLink} className="code-link" target="_blank">
               View Code
-            </a>
-            <a href="{liveLink}" className="live-link">
-              Live
             </a>
           </div>
           <p className="card-subtitle m-0">{subtitle}</p>

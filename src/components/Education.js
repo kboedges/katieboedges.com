@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Card from "./Card";
-import apsuLogo from "./images/apsuLogo.png";
-import BULogo from "./images/BU.png";
-import fitLogo from "./images/fitLogo.png";
-import UdacityLogo from "./images/Udacity_logo.png";
+import apsuLogo from "../images/apsuLogo.png";
+import BULogo from "../images/BU.png";
+import fitLogo from "../images/fitLogo.png";
+import UdacityLogo from "../images/Udacity_logo.png";
 
 class Education extends Component {
   render() {
