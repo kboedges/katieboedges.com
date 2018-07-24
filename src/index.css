@@ -109,6 +109,12 @@ a:hover {
   border: 0;
 }
 
+.card-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .card:nth-child(odd) {
   margin-right: 3% !important;
 }
@@ -116,6 +122,16 @@ a:hover {
 .card-title {
   font-weight: bold;
   font-size: 1.1rem;
+  flex: 1;
+}
+
+.code-link {
+  margin-right: 1rem;
+}
+
+.code-link,
+.live-link {
+  color: var(--mid-blue);
 }
 
 .card-subtitle {
