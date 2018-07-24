@@ -1,19 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Patua+One|Tajawal:200,700');
+@import url("https://fonts.googleapis.com/css?family=Patua+One|Tajawal:200,700");
 
 html {
   height: 100vh;
 }
 
-:root, .app {
+:root,
+.app {
   width: 100vw;
+  height: 100vh;
 }
 
 :root {
   --white-transparent: rgba(255, 255, 255, 0.219);
   --white-less: rgb(193, 173, 239);
   --bluish-white: rgb(219, 217, 224);
-  --dark-purple: rgb(36,15,84);
-  --cool-blue: rgba(68,11,200,1);
+  --dark-purple: rgb(36, 15, 84);
+  --cool-blue: rgba(68, 11, 200, 1);
   --mid-blue: rgb(156, 140, 193);
   --med-width: 47%;
   --small-width: 100%;
@@ -21,13 +23,35 @@ html {
 
 body {
   color: #fff;
-  font-family: 'Tajawal', sans-serif;
+  font-family: "Tajawal", sans-serif;
   font-weight: 200;
-  display: flex;
   height: 100vh;
   overflow: hidden;
-  background: rgb(36,15,84);
-  background: linear-gradient(180deg, rgba(36,15,84,1) 0%, rgba(36,15,84,1) 5%, rgba(68,11,200,1) 100%);
+  background: rgb(36, 15, 84);
+  background: linear-gradient(180deg, rgba(36, 15, 84, 1) 0%, rgba(36, 15, 84, 1) 5%, rgba(68, 11, 200, 1) 100%);
+}
+
+#root {
+  display: flex;
+  height: 100vh;
+  min-height: 400px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: absolute;
+  top: 0;
+}
+
+/* SVG */
+
+svg.hills {
+  bottom: 0 !important;
+  position: absolute;
+  height: auto;
+  z-index: 9999;
+}
+
+.app {
+  height: 100vh;
 }
 
 p {
@@ -35,7 +59,8 @@ p {
   color: var(--bluish-white);
 }
 
-a, a:visited {
+a,
+a:visited {
   color: #fff;
   text-decoration: none;
 }
@@ -47,12 +72,13 @@ span {
 /* Classes */
 
 .opening {
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
   font-weight: normal;
   letter-spacing: 1px;
 }
 
-.about-me, .nav {
+.about-me,
+.nav {
   line-height: 2;
 }
 
@@ -60,14 +86,16 @@ span {
   background: var(--white-transparent);
 }
 
-.nav-name, .nav-item {
-  font-family: 'Patua One', cursive;
+.nav-name,
+.nav-item {
+  font-family: "Patua One", cursive;
   font-weight: normal;
   letter-spacing: 1px;
   color: #fff;
 }
 
-.current-page, a:hover {
+.current-page,
+a:hover {
   color: var(--white-less) !important;
 }
 
@@ -86,7 +114,7 @@ span {
 
 .card-title {
   font-weight: bold;
-  font-size: 1.1rem; 
+  font-size: 1.1rem;
 }
 
 .card-subtitle {
@@ -109,12 +137,4 @@ span {
 .card-tech {
   font-weight: bold;
   color: var(--mid-blue);
-}
-
-/* SVG */
-
-svg.hills {
-    bottom: 0 !important;
-    position: absolute;
-    height: auto;
 }
