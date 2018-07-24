@@ -10,15 +10,35 @@ class Work extends Component {
         <div className="d-flex flex-row flex-wrap">
           <Card
             title={"Cyber Security Countdown"}
-            text={"2018 - Stop a ransomware attack by entering in 6 correct passwords within 5 hours."}
+            text={"Stop a ransomware attack by entering in 6 correct passwords within 5 hours"}
             link={"https://github.com/kboedges/cybersec-timer"}
-            tech={"JavaScript, React, Redux"}
+            tech={"JavaScript, React, Redux, Fetch API"}
           />
           <Card
             title={"Bookshelf"}
-            text={"2018 - Add books to your bookshelf to track your reading progress."}
+            text={"Add books to your bookshelf to track your reading progress"}
             link={"https://github.com/kboedges/bookshelf"}
             tech={"JavaScript, React"}
+          />
+          <Card
+            title={"Better Readable"}
+            text={"Post, Comment, Edit, Delete...a Reddit clone app"}
+            link={"https://github.com/kboedges/better-readable"}
+            tech={"JavaScript, React, Redux, Fetch API"}
+          />
+          <Card
+            title={"Mobile Flashcards"}
+            text={
+              "Quiz yourself with flashcards on iOS and Android, create your own decks, and add new cards to your decks"
+            }
+            link={"https://github.com/kboedges/better-readable"}
+            tech={"JavaScript, React Native, Redux"}
+          />
+          <Card
+            title={"CSS Retro Electronics"}
+            text={"Drawing a variety of electronics from the 2000s and earlier using CSS, some projects incorporate JS"}
+            link={"https://codepen.io/collection/XRVbGo/"}
+            tech={"CSS, JS, Fetch API"}
           />
         </div>
       </div>

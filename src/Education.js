@@ -38,7 +38,7 @@ class Education extends Component {
           <Card
             title={"React Nanodegree Program"}
             subtitle={"Udacity"}
-            text={"2018 - In progress"}
+            text={"July 2018"}
             img={UdacityLogo}
             link={"https://www.udacity.com/course/react-nanodegree--nd019"}
           />

@@ -22,7 +22,7 @@ class Card extends Component {
         <div className="card-body p-4">
           <h5 className="card-title">{title}</h5>
           <p className="card-subtitle m-0">{subtitle}</p>
-          {/* <p className="card-text m-0">{text}</p> */}
+          <p className="card-text m-0">{text}</p>
           {tech && <p className="card-tech mb-0 mt-2">{tech}</p>}
         </div>
       </div>
