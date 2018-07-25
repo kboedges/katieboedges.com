@@ -5,7 +5,7 @@ class Work extends Component {
   render() {
     return (
       <div className="work p-5 pb-0">
-        <h1 className="opening mb-4">Work.</h1>
+        <h1 className="opening mb-4">Projects.</h1>
         <p>Development projects that I've worked on</p>
         <div className="d-flex flex-row flex-wrap">
           <CodeCard

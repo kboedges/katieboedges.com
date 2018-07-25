@@ -12,7 +12,7 @@ class App extends Component {
         <Nav />
         <Route exact path="/" render={() => <About />} />
         <Route path="/about" render={() => <About />} />
-        <Route path="/work" render={() => <Work />} />
+        <Route path="/projects" render={() => <Work />} />
         <Route path="/education" render={() => <Education />} />
         <svg
           className="hills"
