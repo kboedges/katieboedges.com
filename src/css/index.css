@@ -93,6 +93,12 @@ span {
   font-weight: normal;
   letter-spacing: 1px;
   color: #fff;
+  font-size: 1.1rem;
+}
+
+.nav-name:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .current-page,
