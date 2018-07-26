@@ -23,9 +23,15 @@ class About extends Component {
           <a href="https://github.com/kboedges">
             <FontAwesomeIcon icon={["fab", "github"]} />
           </a>
-          <FontAwesomeIcon icon={["fab", "linkedin"]} />
-          <FontAwesomeIcon icon={["fab", "codepen"]} />
-          <FontAwesomeIcon icon={["fab", "twitter"]} />
+          <a href="https://www.linkedin.com/in/katherine-boedges-18baa339/">
+            <FontAwesomeIcon icon={["fab", "linkedin"]} />
+          </a>
+          <a href="https://codepen.io/kboedges/">
+            <FontAwesomeIcon icon={["fab", "codepen"]} />
+          </a>
+          <a href="https://twitter.com/kboedg">
+            <FontAwesomeIcon icon={["fab", "twitter"]} />
+          </a>
         </div>
       </div>
     );
