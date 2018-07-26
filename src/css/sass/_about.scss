@@ -1,0 +1,19 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-social svg {
+  font-size: 2rem;
+  margin: 0 0.5rem;
+}
+
+.about-social {
+  padding-bottom: 2rem;
+}
+
+.about-me {
+  line-height: 2;
+}

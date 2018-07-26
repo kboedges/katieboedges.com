@@ -20,7 +20,9 @@ class About extends Component {
           </p>
         </div>
         <div className="about-social">
-          <FontAwesomeIcon icon={["fab", "github"]} />
+          <a href="https://github.com/kboedges">
+            <FontAwesomeIcon icon={["fab", "github"]} />
+          </a>
           <FontAwesomeIcon icon={["fab", "linkedin"]} />
           <FontAwesomeIcon icon={["fab", "codepen"]} />
           <FontAwesomeIcon icon={["fab", "twitter"]} />
