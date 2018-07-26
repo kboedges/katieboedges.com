@@ -6,7 +6,7 @@ class Card extends Component {
     title: PropTypes.string.isRequired,
     subtitle: PropTypes.string,
     text: PropTypes.string.isRequired,
-    img: PropTypes.object,
+    img: PropTypes.string,
     link: PropTypes.string,
     tech: PropTypes.string
   };
@@ -16,8 +16,8 @@ class Card extends Component {
 
     return (
       <div className="card d-flex flex-row mb-3">
-        {img && <img class="card-img" src={img} alt="logo" />}
-        <div className="card-body p-4">
+        {img && <img className="card-img" src={img} alt="logo" />}
+        <div className="card-body px-4 py-3">
           <div className="card-row">
             <h5 className="card-title">{title}</h5>
             {link && (

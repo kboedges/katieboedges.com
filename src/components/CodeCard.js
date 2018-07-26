@@ -16,7 +16,7 @@ class CodeCard extends Component {
 
     return (
       <div className="card d-flex flex-row mb-3">
-        <div className="card-body p-4">
+        <div className="card-body px-4 py-3">
           <div className="card-row">
             <h5 className="card-title">{title}</h5>
             {liveLink && (

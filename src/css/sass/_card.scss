@@ -5,6 +5,11 @@
   border: 0;
 }
 
+.card-body {
+  height: 160px;
+  overflow-y: scroll;
+}
+
 .card-row {
   display: flex;
   flex-direction: row;
@@ -45,4 +50,13 @@
 .card-tech {
   font-weight: bold;
   color: var(--mid-blue);
+}
+
+@media (max-width: 1000px) {
+  .card {
+    width: var(--small-width) !important;
+  }
+  .card:nth-child(odd) {
+    margin-right: 0 !important;
+  }
 }
