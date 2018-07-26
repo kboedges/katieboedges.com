@@ -1,4 +1,9 @@
 import React, { Component } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+
+library.add(fab);
 
 class About extends Component {
   render() {
@@ -14,7 +19,12 @@ class About extends Component {
             hobbies.
           </p>
         </div>
-        <div className="about-social" />
+        <div className="about-social">
+          <FontAwesomeIcon icon={["fab", "github"]} />
+          <FontAwesomeIcon icon={["fab", "linkedin"]} />
+          <FontAwesomeIcon icon={["fab", "codepen"]} />
+          <FontAwesomeIcon icon={["fab", "twitter"]} />
+        </div>
       </div>
     );
   }

@@ -17,7 +17,6 @@ class Education extends Component {
             subtitle={"Austin Peay State University"}
             text={"2012 - Minors in mathematics and astronomy"}
             img={apsuLogo}
-            link={"https://www.apsu.edu/physics/"}
           />
           <Card
             title={"Identifying Short-Term Variations in Hyperion’s Light Curve"}

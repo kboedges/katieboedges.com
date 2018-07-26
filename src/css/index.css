@@ -48,7 +48,13 @@ body {
 .page {
   flex-grow: 1;
   overflow-y: auto;
-  padding-bottom: 200px !important;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 p {
@@ -58,6 +64,15 @@ p {
 
 span {
   font-weight: bold;
+}
+
+.about-social svg {
+  font-size: 2rem;
+  margin: 0 0.5rem;
+}
+
+.about-social {
+  padding-bottom: 2rem;
 }
 
 /* Classes */
