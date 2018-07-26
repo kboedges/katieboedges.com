@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Route } from "react-router-dom";
 import About from "./About";
 import Education from "./Education";
-import Work from "./Work";
+import Projects from "./Projects";
 import Nav from "./Nav";
 
 class App extends Component {
@@ -12,23 +12,24 @@ class App extends Component {
         <Nav />
         <Route exact path="/" render={() => <About />} />
         <Route path="/about" render={() => <About />} />
-        <Route path="/projects" render={() => <Work />} />
+        <Route path="/projects" render={() => <Projects />} />
         <Route path="/education" render={() => <Education />} />
+
         <svg
           className="hills"
           x="0"
           y="0"
-          width="100%"
-          height="auto"
-          viewBox="0 0 1400 500"
+          width="1400"
+          height="70"
+          viewBox="0 0 1400 70"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <rect x="0" y="460" width="1400" height="40" fill="black" />
-          <path d="M0 460 C 100 460, 20 430, 200 470" stroke="black" fill="black" />
-          <path d="M200 470 C 260 450, 500 450, 800 460" stroke="black" fill="black" />
-          <path d="M500 460 C 700 440, 600 450, 800 470" stroke="black" fill="black" />
-          <path d="M700 470 C 740 450, 900 450, 1000 460" stroke="black" fill="black" />
-          <path d="M1000 460 C 1200 440, 1100 450, 1400 470" stroke="black" fill="black" />
+          <rect x="0" y="30" width="1400" height="40" fill="black" />
+          <path d="M0 30 C 100 30, 20 0, 200 40" stroke="black" fill="black" />
+          <path d="M200 40 C 260 20, 500 20, 800 30" stroke="black" fill="black" />
+          <path d="M500 30 C 700 10, 600 20, 800 40" stroke="black" fill="black" />
+          <path d="M700 40 C 740 20, 900 20, 1000 30" stroke="black" fill="black" />
+          <path d="M1000 30 C 1200 10, 1100 20, 1400 40" stroke="black" fill="black" />
         </svg>
       </div>
     );

@@ -26,45 +26,35 @@ body {
   background-repeat: no-repeat;
 }
 
-/* :root,
-.app {
-  width: 100vw;
-  height: 100vh;
-} */
-
-/* #root {
-  display: flex;
-  height: 100vh;
-  min-height: 400px;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  position: absolute;
-  top: 0;
-} */
-
-/* SVG */
-
-svg.hills {
-  bottom: 0 !important;
-  position: absolute;
+.hills {
   height: auto;
-  z-index: 9999;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
 }
 
 .app {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  flex-shrink: 0;
+}
+
+.page {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding-bottom: 200px !important;
 }
 
 p {
   font-size: 1.1rem;
   color: var(--bluish-white);
 }
-
-/* a,
-a:visited {
-  color: #fff;
-  text-decoration: none;
-} */
 
 span {
   font-weight: bold;

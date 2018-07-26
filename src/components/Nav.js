@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 class Nav extends Component {
   render() {
     return (
-      <div className="nav px-5 py-1 w-100 d-flex flex-row justify-content-between">
+      <div className="nav px-5 py-2 w-100 d-flex flex-row justify-content-between">
         <Link className="nav-name mb-0 mt-1" to="/about">
           Katie Boedges
         </Link>
@@ -16,8 +16,8 @@ class Nav extends Component {
             <Link className="nav-item ml-4 mt-1" to="/education">
               Education
             </Link>
-            <Link className="nav-item ml-4 mt-1" to="/work">
-              Work
+            <Link className="nav-item ml-4 mt-1" to="/projects">
+              Projects
             </Link>
           </ol>
         </div>

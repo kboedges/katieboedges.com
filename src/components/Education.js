@@ -8,7 +8,7 @@ import UdacityLogo from "../images/Udacity_logo.png";
 class Education extends Component {
   render() {
     return (
-      <div className="education p-5 pb-0 w-100 d-flex flex-column">
+      <div className="page education p-5 w-100 d-flex flex-column">
         <h1 className="opening mb-4">Education.</h1>
         <p>Degrees, courses, and published articles</p>
         <div className="d-flex flex-row flex-wrap">

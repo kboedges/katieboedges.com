@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import CodeCard from "./CodeCard";
 
-class Work extends Component {
+class Projects extends Component {
   render() {
     return (
-      <div className="work p-5 pb-0">
+      <div className="page projects p-5">
         <h1 className="opening mb-4">Projects.</h1>
         <p>Development projects that I've worked on</p>
         <div className="d-flex flex-row flex-wrap">
@@ -48,4 +48,4 @@ class Work extends Component {
   }
 }
 
-export default Work;
+export default Projects;
