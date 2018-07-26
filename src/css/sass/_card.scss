@@ -1,0 +1,48 @@
+.card {
+  background: var(--dark-purple);
+  border-radius: 2px;
+  width: var(--med-width) !important;
+  border: 0;
+}
+
+.card-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card:nth-child(odd) {
+  margin-right: 3% !important;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  flex: 1;
+}
+
+.live-link {
+  margin-right: 1rem;
+}
+
+.code-link,
+.live-link {
+  color: var(--mid-blue);
+}
+
+.card-subtitle {
+  color: var(--white-less);
+}
+
+.card-img {
+  width: auto;
+  height: 160px;
+  border-radius: 2px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.card-tech {
+  font-weight: bold;
+  color: var(--mid-blue);
+}

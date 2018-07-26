@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Patua+One|Tajawal:200,700");
 @import "stars";
 @import "about";
+@import "nav";
+@import "card";
 
 :root {
   --white-transparent: rgba(255, 255, 255, 0.219);
@@ -43,10 +45,6 @@ body {
   align-items: center;
 }
 
-.nav {
-  flex-shrink: 0;
-}
-
 .page {
   flex-grow: 1;
   overflow-y: auto;
@@ -61,93 +59,13 @@ span {
   font-weight: bold;
 }
 
-/* Classes */
-
 .opening {
   font-family: "Patua One", cursive;
   font-weight: normal;
   letter-spacing: 1px;
 }
 
-.nav {
-  line-height: 2;
-}
-
-.nav {
-  background: var(--white-transparent);
-}
-
-.nav-name,
-.nav-item {
-  font-family: "Patua One", cursive;
-  font-weight: normal;
-  letter-spacing: 1px;
-  color: #fff;
-  font-size: 1.1rem;
-}
-
-.nav-name:hover {
-  text-decoration: none;
-  color: white;
-}
-
 .current-page,
 a:hover {
   color: var(--white-less) !important;
-}
-
-/* Education */
-
-.card {
-  background: var(--dark-purple);
-  border-radius: 2px;
-  width: var(--med-width) !important;
-  border: 0;
-}
-
-.card-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.card:nth-child(odd) {
-  margin-right: 3% !important;
-}
-
-.card-title {
-  font-weight: bold;
-  font-size: 1.1rem;
-  flex: 1;
-}
-
-.live-link {
-  margin-right: 1rem;
-}
-
-.code-link,
-.live-link {
-  color: var(--mid-blue);
-}
-
-.card-subtitle {
-  color: var(--white-less);
-}
-
-.card-img {
-  width: auto;
-  height: 160px;
-  border-radius: 2px;
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
-}
-
-.card-link:hover img {
-  -webkit-filter: saturate(8);
-  filter: saturate(8);
-}
-
-.card-tech {
-  font-weight: bold;
-  color: var(--mid-blue);
 }

@@ -5,15 +5,17 @@
   align-items: center;
 }
 
-.about-social svg {
-  font-size: 2rem;
-  margin: 0 0.5rem;
+.about-me {
+  line-height: 2;
 }
 
 .about-social {
+  a {
+    color: #fff;
+  }
+  svg {
+    font-size: 2rem;
+    margin: 0 0.5rem;
+  }
   padding-bottom: 2rem;
-}
-
-.about-me {
-  line-height: 2;
 }
