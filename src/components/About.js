@@ -20,16 +20,16 @@ class About extends Component {
           </p>
         </div>
         <div className="about-social">
-          <a href="https://github.com/kboedges">
+          <a href="https://github.com/kboedges" target="_blank">
             <FontAwesomeIcon icon={["fab", "github"]} />
           </a>
-          <a href="https://www.linkedin.com/in/katherine-boedges-18baa339/">
+          <a href="https://www.linkedin.com/in/katherine-boedges-18baa339/" target="_blank">
             <FontAwesomeIcon icon={["fab", "linkedin"]} />
           </a>
-          <a href="https://codepen.io/kboedges/">
+          <a href="https://codepen.io/kboedges/" target="_blank">
             <FontAwesomeIcon icon={["fab", "codepen"]} />
           </a>
-          <a href="https://twitter.com/kboedg">
+          <a href="https://twitter.com/kboedg" target="_blank">
             <FontAwesomeIcon icon={["fab", "twitter"]} />
           </a>
         </div>
