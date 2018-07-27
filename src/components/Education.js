@@ -28,9 +28,7 @@ class Education extends Component {
             link={"https://confirm.udacity.com/NKGMYHJT"}
           />
           <Card
-            title={
-              "Intro to JavaScript, Advanced JS: Intro to Object-Oriented JavaScript and MVC, Intro to Web Servers with Node.js"
-            }
+            title={"Intro to JavaScript, Advanced JS: Intro to Object-Oriented JavaScript and MVC"}
             subtitle={"Girl Develop It"}
             text={"February 2015"}
             img={gdi}

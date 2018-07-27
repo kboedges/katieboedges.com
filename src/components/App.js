@@ -1,9 +1,12 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
+
+// Components
 import About from "./About";
 import Education from "./Education";
 import Projects from "./Projects";
 import Nav from "./Nav";
+import Resume from "./Resume";
 
 class App extends Component {
   render() {
@@ -14,7 +17,7 @@ class App extends Component {
         <Route path="/about" render={() => <About />} />
         <Route path="/projects" render={() => <Projects />} />
         <Route path="/education" render={() => <Education />} />
-
+        <Route path="/resume" render={() => <Resume />} />
         <svg
           className="hills"
           x="0"

@@ -19,6 +19,9 @@ class Nav extends Component {
             <NavLink className="nav-item ml-4 mt-1" activeClassName="current-page" to="/projects">
               Projects
             </NavLink>
+            <NavLink className="nav-item ml-4 mt-1" activeClassName="current-page" to="/resume">
+              Resume
+            </NavLink>
           </ol>
         </div>
       </div>
