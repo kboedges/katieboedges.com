@@ -3,20 +3,20 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-}
 
-.about-me {
-  line-height: 2;
-}
-
-.about-social {
-  padding-bottom: 2rem;
-
-  a {
-    color: #fff;
+  &-me {
+    line-height: 2;
   }
-  svg {
-    font-size: 2rem;
-    margin: 0 0.8rem;
+
+  &-social {
+    padding-bottom: 2rem;
+
+    a {
+      color: #fff;
+    }
+    svg {
+      font-size: 2rem;
+      margin: 0 0.8rem;
+    }
   }
 }

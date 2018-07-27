@@ -2,6 +2,20 @@
   flex-shrink: 0;
   line-height: 2;
   background: var(--white-transparent);
+
+  &-name,
+  &-item {
+    font-family: "Patua One", cursive;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 1.1rem;
+  }
+
+  &-name:hover {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 .nav-name,
