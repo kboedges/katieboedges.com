@@ -20,6 +20,7 @@
 $stars1-shadows: box-shadow-stars(10000);
 $stars2-shadows: box-shadow-stars(1000);
 $stars3-shadows: box-shadow-stars(500);
+$stars4-shadows: box-shadow-stars(7);
 
 .star {
   border-radius: 50%;
@@ -37,14 +38,21 @@ $stars3-shadows: box-shadow-stars(500);
     width: 2px;
     height: 2px;
     box-shadow: $stars2-shadows;
-    animation: rotateEarth 190s linear infinite;
+    animation: rotateEarth 160s linear infinite;
   }
 
   &-layer3 {
     width: 3px;
     height: 3px;
     box-shadow: $stars3-shadows;
-    animation: rotateEarth 180s linear infinite;
+    animation: rotateEarth 140s linear infinite;
+  }
+  // Shooting stars
+  &-layer4 {
+    width: 3px;
+    height: 3px;
+    box-shadow: $stars4-shadows;
+    animation: rotateEarth 9s linear infinite;
   }
 }
 
