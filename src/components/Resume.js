@@ -11,7 +11,7 @@ class Resume extends Component {
   render() {
     return (
       <div className="page resume p-5">
-        <a href="link/to/your/download/file" className="resume-download" download>
+        <a href={resume} className="resume-download" download>
           <FontAwesomeIcon icon="download" /> Download Resume
         </a>
         <Document file={resume}>
