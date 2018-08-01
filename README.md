@@ -1,3 +1,8 @@
+# Katie Boedges Personal Website
+
+<!-- Decisions on CSS/bootstrap -->
+
+
 ## Installed Libraries/Packages
 
 * npm install --save bootstrap@4.0.0-alpha.6 

@@ -10,7 +10,6 @@
 
   &-body {
     height: 160px;
-    overflow-y: scroll;
   }
 
   &-row {
@@ -52,7 +51,7 @@
   color: var(--mid-blue);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .card {
     width: var(--small-width) !important;
 
