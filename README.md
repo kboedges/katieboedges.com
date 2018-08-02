@@ -1,6 +1,6 @@
 # Katie Boedges Personal Website
 
-<!-- Decisions on CSS/bootstrap -->
+<!-- Decisions on CSS/bootstrap, goals, what I learned, "my profile site...lamp stack",  -->
 
 
 ## Installed Libraries/Packages
