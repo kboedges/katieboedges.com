@@ -71,3 +71,9 @@ span {
 a:hover {
   color: var(--white-less) !important;
 }
+
+@media (max-width: 700px) {
+  .hills {
+    display: none;
+  }
+}
