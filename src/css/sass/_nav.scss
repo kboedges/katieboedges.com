@@ -1,5 +1,6 @@
 .nav {
   flex-shrink: 0;
+  flex-direction: row;
   line-height: 2;
   background: var(--white-transparent);
 
@@ -12,9 +13,17 @@
     font-size: 1.1rem;
   }
 
+  &-item {
+    margin-left: 1.5rem;
+  }
+
   &-name:hover {
     text-decoration: none;
     color: white;
+  }
+
+  &-list {
+    flex-direction: row;
   }
 }
 
@@ -30,4 +39,15 @@
 .nav-name:hover {
   text-decoration: none;
   color: white;
+}
+
+@media (max-width: 700px) {
+  .nav,
+  .nav-list {
+    flex-direction: column;
+  }
+
+  .nav-item {
+    margin: 0;
+  }
 }
