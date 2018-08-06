@@ -27,7 +27,7 @@ class App extends Component {
           viewBox="0 0 1400 70"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <rect x="0" y="30" width="1400" height="40" fill="black" />
+          <rect x="-10" y="30" width="1450" height="45" fill="black" />
           <path d="M0 30 C 100 30, 20 0, 200 40" stroke="black" fill="black" />
           <path d="M200 40 C 260 20, 500 20, 800 30" stroke="black" fill="black" />
           <path d="M500 30 C 700 10, 600 20, 800 40" stroke="black" fill="black" />
