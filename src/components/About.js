@@ -22,19 +22,16 @@ class About extends Component {
           </p>
         </div>
         <div className="about-social">
-          <a href="https://github.com/kboedges" target="_blank">
+          <a href="https://github.com/kboedges" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={["fab", "github"]} />
           </a>
-          <a
-            href="https://www.linkedin.com/in/katherine-boedges-18baa339/"
-            target="_blank"
-          >
+          <a href="https://www.linkedin.com/in/katherine-boedges-18baa339/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={["fab", "linkedin"]} />
           </a>
-          <a href="https://codepen.io/kboedges/" target="_blank">
+          <a href="https://codepen.io/kboedges/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={["fab", "codepen"]} />
           </a>
-          <a href="https://twitter.com/kboedg" target="_blank">
+          <a href="https://twitter.com/kboedg" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={["fab", "twitter"]} />
           </a>
         </div>
